@@ -1,0 +1,209 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  vertical-align: top;
+}
+
+#svg1 {
+  width: 45px;
+  height: 45px;
+}
+
+#SVG2 {
+  width: 80px;
+  height: 80px;
+}
+
+#svg1, .navbar-brand {
+  display: inline-block;
+}
+
+body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+nav.navbar {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar {
+  padding-top: 10px;
+  padding-bottom: initial;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+  border-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top a {
+  color: #29CDB5;
+  font-weight: 900;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top a:hover {
+  color: #ad1f24;
+}
+nav.navbar.navbar-default.navbar-fixed-top .navbar-brand {
+  color: #29CDB5;
+}
+
+.navbar-top {
+  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header.jumbotron {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #29CDB5;
+  color: #eee;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.block {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 900;
+}
+.block .topblock {
+  background-color: #eee;
+  color: #29CDB5;
+  padding: 20px;
+}
+.block .topblock .number, .block .topblock .thing, .block .topblock .count {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.midblock {
+  padding: 20px;
+  background-color: #ad1f24;
+  color: #eee;
+}
+.midblock .number_show, .midblock .thing_show, .midblock .count_show {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.footblock {
+  padding: 10%;
+}
+.footblock .photo, .footblock .content {
+  display: inline-block;
+}
+.footblock .photo {
+  width: 30%;
+  background-image: url(https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/13346848_1142745169111168_2175481827101311908_n.jpg?oh=3cd13bc4814db56f3a9478d0b4301899&oe=599CF070);
+  height: 250px;
+  background-size: cover;
+  background-position: right bottom;
+}
+.footblock .content {
+  width: 60%;
+}
+.footblock .content .special, .footblock .content .icon {
+  display: inline-block;
+}
+.footblock .content .special {
+  color: #ad1f24;
+  padding-top: 40px;
+  padding-left: 30px;
+  font-size: 24px;
+}
+.footblock .content .icon {
+  padding: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.pay {
+  width: 100%;
+  background-color: #ad1f24;
+  color: #eee;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  padding: 20px;
+  padding-top: -40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.pay:hover {
+  color: #29CDB5;
+  background-color: #eee;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 992px) {
+  #googleMap {
+    position: initial;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #googleMap {
+    position: initial;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+  .footblock {
+    margin-left: 0px;
+  }
+  .footblock .photo {
+    height: 150px;
+    width: 150px;
+    background-size: center center;
+  }
+  .footblock .special {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  #SVG2 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .footblock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: vertical;
+            flex-direction: vertical;
+  }
+}

@@ -1,0 +1,170 @@
+$color_orange: #ff6e3a
+$color_gray: #dcdcdc
+$color_blue: #29CDB5
+$color_black: #1e1e1e
+$color_red: #ad1f24
+$color_white: #eee
+$break_width: 768px
+
+*
+  font-family: 微軟正黑體
+  vertical-align: top
+  // border: solid 1px #666
+  // debug
+  // header
+  //   display: none
+  // section
+  //   display: none
+
+#svg1
+  width: 45px
+  height: 45px
+  
+#SVG2
+  width: 80px
+  height: 80px
+
+
+#svg1,.navbar-brand
+  display: inline-block
+  
+body
+  height: 100%
+  
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+
+nav.navbar
+  transition: 0.5s
+
+    
+.navbar
+  padding-top: 10px
+  padding-bottom: initial
+  
+nav.navbar.navbar-default.navbar-fixed-top
+  border-color: transparent  
+  
+  a
+    color: $color_blue
+    font-weight: 900
+    transition: 0.5s
+    
+    &:hover
+      color: $color_red
+  .navbar-brand
+    color: $color_blue
+.navbar-top
+  background-color: transparent
+  padding-top: 20px
+  padding-bottom: 20px
+  
+// break screen point
+
+
+header.jumbotron
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: $color_blue
+  color: $color_white
+  font-weight: 900
+  font-size: 30px
+  text-align: center
+  margin-top: 80px
+  margin-bottom: 0px
+  
+.block
+  margin: 0
+  padding: 0
+  width: 100%
+  font-size: 16px
+  font-weight: 900
+  .topblock
+    background-color: $color_white
+    color: $color_blue
+    padding: 20px
+    .number,.thing,.count
+      display: inline-block
+      width: 30%
+      text-align: center
+      
+.midblock
+  padding: 20px
+  background-color: $color_red
+  color: $color_white
+  .number_show,.thing_show,.count_show
+    display: inline-block
+    width: 30%
+    text-align: center
+
+.footblock
+  padding: 10%
+  .photo,.content
+    display: inline-block
+  .photo
+    width: 30%
+    background-image: url(https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/13346848_1142745169111168_2175481827101311908_n.jpg?oh=3cd13bc4814db56f3a9478d0b4301899&oe=599CF070)
+    height: 250px
+    background-size: cover
+    background-position: right bottom
+  .content
+    width: 60%
+    .special,.icon
+      display: inline-block
+    .special
+      
+      color: $color_red   
+      padding-top: 40px
+      padding-left: 30px
+      font-size: 24px
+    .icon
+      padding: 20px
+      padding-top: 40px
+      padding-left: 40px
+.pay
+  width: 100%
+  background-color: $color_red
+  color: $color_white
+  font-size: 20px
+  font-weight: 900
+  text-align: center
+  padding: 20px
+  padding-top: -40px
+  transition: 0.5s
+  cursor: pointer
+  &:hover
+    color: $color_blue
+    background-color: $color_white
+    transition: 0.5s
+     
+  
+
+      
+@media screen and (max-width: 992px)
+  #googleMap
+    position: initial
+    left: 50%
+    transform: translateX(-50%)
+@media screen and (max-width: 768px)
+  #googleMap
+    position: initial
+    left: 50%
+    transform: translateX(-50%)
+  .footblock
+    margin-left: 0px
+    .photo
+      height: 150px
+      width: 150px
+      background-size: center center
+    .special
+      font-size: 12px
+      font-weight: 500
+  #SVG2
+    width: 70px
+    height: 70px
+  .footblock
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: vertical

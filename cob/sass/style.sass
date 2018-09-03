@@ -1,0 +1,192 @@
+$color_orange: #ff6e3a
+$color_gray: #dcdcdc
+$color_blue: #29CDB5
+$color_black: #1e1e1e
+$color_red: #ad1f24
+$color_white: #eee
+$break_width: 768px
+
+*
+  font-family: 微軟正黑體
+  // border: solid 1px #666
+  // debug
+  // header
+  //   display: none
+  // section
+  //   display: none
+
+#svg1
+  width: 45px
+  height: 45px
+
+
+
+#svg1,.navbar-brand
+  display: inline-block
+  
+body
+  height: 100%
+  
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+
+nav.navbar
+  transition: 0.5s
+
+    
+.navbar
+  padding-top: 10px
+  padding-bottom: initial
+  
+nav.navbar.navbar-default.navbar-fixed-top
+  border-color: transparent  
+  
+  a
+    color: $color_blue
+    font-weight: 900
+    transition: 0.5s
+    
+    &:hover
+      color: $color_red
+  .navbar-brand
+    color: $color_blue
+.navbar-top
+  background-color: transparent
+  padding-top: 20px
+  padding-bottom: 20px
+
+header.jumbotron
+  text-align: center
+  background-image: url(https://image.freepik.com/free-photo/young-woman-walking-with-her-backpack_1150-303.jpg)
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  //filter: grayscale(50%)
+  
+  .container
+    color: white
+    padding: 250px 0px
+    
+  hr
+    max-width: 50px
+    border: solid 2px $color_orange
+  h4
+    color: rgba(white,0.5)
+    font-weight: normal
+  .text
+    border-radius: 5px
+    position: absolute
+    background-color: rgba(173, 31, 36,0.6)
+    padding: 30px
+    color: $color_blue
+    top: 350px
+    right: 160px
+    padding-left: 45px
+    font-size: 50px
+    font-weight: 900
+    line-height: 60px
+    letter-spacing: 20px
+    cursor: pointer
+   
+section
+  padding: 50px 0px
+    
+    
+section#section_about
+  background-color: $color_white
+  color: $color_blue
+  transition-duration: 1s
+  span
+    color: $color_red
+    font-size: 20px
+  h1
+    font-size: 48px
+  hr
+    border: solid 1px
+  .col-sm-12
+    text-align: center
+    margin-bottom: 20px
+    letter-spacing: 10px
+  img
+    width: 130%
+  .img_wrap#googleMap
+    width: 350px
+    height: 350px
+    
+  .col-md-6.col-sm-12
+    input 
+      border-radius: 5px
+      padding-left: 15px
+      padding-top: 2px
+      padding-bottom: 2px
+    .thing,.time,.pay,.place
+      font-weight: 500
+      margin-top: 30px
+      & p,input
+        display: inline-block
+      & p
+        font-size: 25px
+      & input
+        font-size: 25px
+
+        font-size: 25px
+    .botton
+      margin-top: 20px
+      font-size: 20px
+      border-radius: 5px
+      padding-left: 220px
+      
+h3   
+  color: $color_red
+  text-align: center
+    
+
+#function2
+  cursor: pointer   
+  font-weight: 900
+
+footer.jumbotron
+  text-align: center
+  background-image: url("https://farm8.staticflickr.com/7371/12304101094_142dd4c885_c.jpg")
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  input
+    background-color: transparent
+    max-width: 350px
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+    
+  .container
+    color: white
+    padding: 60px 0px
+  hr
+    max-width: 50px
+    border: solid 2px $color_orange
+
+// break screen point
+
+@media screen and (max-width: $break_width)
+  header.jumbotron
+    display: flex
+    justify-content: center
+    align-items: center
+    
+    .text
+      position: initial
+      margin-top: 180px
+      margin-bottom: -180px
+      
+@media screen and (max-width: 992px)
+  #googleMap
+    position: initial
+    left: 50%
+    transform: translateX(-50%)
+@media screen and (max-width: 768px)
+  #googleMap
+    position: initial
+    left: 50%
+    transform: translateX(-50%)
+   
+      

@@ -1,0 +1,220 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+#svg1 {
+  width: 45px;
+  height: 45px;
+}
+
+#svg1, .navbar-brand {
+  display: inline-block;
+}
+
+body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+nav.navbar {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar {
+  padding-top: 10px;
+  padding-bottom: initial;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+  border-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top a {
+  color: #29CDB5;
+  font-weight: 900;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top a:hover {
+  color: #ad1f24;
+}
+nav.navbar.navbar-default.navbar-fixed-top .navbar-brand {
+  color: #29CDB5;
+}
+
+.navbar-top {
+  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://image.freepik.com/free-photo/young-woman-walking-with-her-backpack_1150-303.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 250px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+header.jumbotron .text {
+  border-radius: 5px;
+  position: absolute;
+  background-color: rgba(173, 31, 36, 0.6);
+  padding: 30px;
+  color: #29CDB5;
+  top: 350px;
+  right: 160px;
+  padding-left: 45px;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 20px;
+  cursor: pointer;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_about {
+  background-color: #eee;
+  color: #29CDB5;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+section#section_about span {
+  color: #ad1f24;
+  font-size: 20px;
+}
+section#section_about h1 {
+  font-size: 48px;
+}
+section#section_about hr {
+  border: solid 1px;
+}
+section#section_about .col-sm-12 {
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 10px;
+}
+section#section_about img {
+  width: 130%;
+}
+section#section_about .img_wrap#googleMap {
+  width: 350px;
+  height: 350px;
+}
+section#section_about .col-md-6.col-sm-12 input {
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+section#section_about .col-md-6.col-sm-12 .thing, section#section_about .col-md-6.col-sm-12 .time, section#section_about .col-md-6.col-sm-12 .pay, section#section_about .col-md-6.col-sm-12 .place {
+  font-weight: 500;
+  margin-top: 30px;
+}
+section#section_about .col-md-6.col-sm-12 .thing p, section#section_about .col-md-6.col-sm-12 .thing input, section#section_about .col-md-6.col-sm-12 .time p, section#section_about .col-md-6.col-sm-12 .time input, section#section_about .col-md-6.col-sm-12 .pay p, section#section_about .col-md-6.col-sm-12 .pay input, section#section_about .col-md-6.col-sm-12 .place p, section#section_about .col-md-6.col-sm-12 .place input {
+  display: inline-block;
+}
+section#section_about .col-md-6.col-sm-12 .thing p, section#section_about .col-md-6.col-sm-12 .time p, section#section_about .col-md-6.col-sm-12 .pay p, section#section_about .col-md-6.col-sm-12 .place p {
+  font-size: 25px;
+}
+section#section_about .col-md-6.col-sm-12 .thing input, section#section_about .col-md-6.col-sm-12 .time input, section#section_about .col-md-6.col-sm-12 .pay input, section#section_about .col-md-6.col-sm-12 .place input {
+  font-size: 25px;
+  font-size: 25px;
+}
+section#section_about .col-md-6.col-sm-12 .botton {
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 220px;
+  color: #29CDB5;
+}
+
+h3 {
+  color: #ad1f24;
+  text-align: center;
+}
+
+#function2 {
+  cursor: pointer;
+  font-weight: 900;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(https://visualhunt.com/photos/l/7/natures-tree-trees-railing.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-filter: brightness(150%);
+  -webkit-filter: saturate(0.5);
+  -webkit-filter: opacity(80%);
+  
+  margin-bottom: 0px;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+
+@media screen and (max-width: 768px) {
+  header.jumbotron {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header.jumbotron .text {
+    position: initial;
+    margin-top: 180px;
+    margin-bottom: -180px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #googleMap {
+    position: initial;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #googleMap {
+    position: initial;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}

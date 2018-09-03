@@ -1,0 +1,137 @@
+$color_orange: #ff6e3a
+$color_gray: #dcdcdc
+$color_blue: #29CDB5
+$color_black: #1e1e1e
+$color_red: #ad1f24
+$color_white: #eee
+$break_width: 768px
+
+*
+  font-family: 微軟正黑體
+  background-color: $color_white
+  vertical-align: top
+  // border: solid 1px #666
+  // debug
+  // header
+  //   display: none
+  // section
+  //   display: none
+
+#svg1
+  width: 45px
+  height: 45px
+  
+#svg1,.navbar-brand
+  display: inline-block
+  
+body
+  height: 100%
+  
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+
+nav.navbar
+  transition: 0.5s
+
+    
+.navbar
+  padding-top: 10px
+  padding-bottom: initial
+  
+nav.navbar.navbar-default.navbar-fixed-top
+  border-color: transparent  
+  
+  a
+    color: $color_blue
+    font-weight: 900
+    transition: 0.5s
+    
+    &:hover
+      color: $color_red
+  .navbar-brand
+    color: $color_blue
+.navbar-top
+  background-color: transparent
+  padding-top: 20px
+  padding-bottom: 20px
+  
+// break screen point
+
+.block
+  display: flex
+  justify-content: center
+  align-items: center
+  color: $color_blue
+  margin-top: 80px
+  flex-direction: column
+  .photo
+    margin-top: 50px
+    width: 150px
+    height: 150px
+    border: solid 2px $color_blue
+    border-radius: 100%
+    background-image: url(https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/13346848_1142745169111168_2175481827101311908_n.jpg?oh=3cd13bc4814db56f3a9478d0b4301899&oe=599CF070)
+    background-size: cover
+    background-position: center center
+  .name
+    margin-top: 30px
+    font-size: 24px
+    font-weight: 900
+  .phone
+    margin-top: 10px
+    padding: 8px
+    padding-left: 16px
+    padding-right: 16px
+    font-size: 16px
+    font-weight: 700
+    border: solid 1px $color_blue
+    border-radius: 10px
+    i.fa.fa-paper-plane-o
+      top: 6px
+      width: 25px
+      font-size: 18px
+  .address
+    font-size: 16px
+    margin-top: 10px
+    margin-bottom: 10px
+    i
+      font-size: 18px
+      width: 25px
+  input
+    width: 400px
+    border: solid 1px $color_blue
+    border-radius: 10px
+    margin-top: 10px
+    height: 24px
+    padding: 20px
+    font-size: 20px
+    color: $color_blue
+  .email
+    margin-top: 20px
+    font-size: 18px
+    font-weight: 700
+    i
+      width: 30px
+      font-size: 21px
+
+  .credit
+    margin-top: 20px
+    font-size: 18px
+    font-weight: 700
+    i
+      width: 30px
+      font-size: 21px
+    i.fa.fa-plus-square-o
+      font-size: 25px
+    
+     
+
+
+
+      
+@media screen and (max-width: 992px)
+ 
+@media screen and (max-width: 768px)
+  input
+    width: 200px
+ 
